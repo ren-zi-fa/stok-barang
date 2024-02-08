@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('/assets/circle-scatter-haikei.svg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Hindari pengulangan gambar latar belakang */
+    background-attachment: fixed; /* Membuat gambar latar belakang tetap pada tempatnya saat menggulir */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
